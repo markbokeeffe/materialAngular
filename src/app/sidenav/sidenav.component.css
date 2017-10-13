@@ -33,3 +33,12 @@ mat-sidenav li{
   color: rgba(0, 0, 0, .54);
   list-style-type: none;
 }
+
+mat-sidenav a{
+  text-decoration:none;
+  color:#6e6e6e;
+}
+
+.mat-card{
+  padding:12px 24px;
+}

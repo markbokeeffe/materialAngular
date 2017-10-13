@@ -7,6 +7,7 @@ import {MatButtonModule, MatCheckboxModule, MatMenuModule, MatCardModule, MatToo
 import {HttpClientModule} from '@angular/common/http';
 import {MatSidenavModule} from '@angular/material';
 import { RouterModule, Routes } from '@angular/router';
+import {MatGridListModule} from '@angular/material';
 
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { IntroductionComponent } from './introduction/introduction.component';
@@ -30,6 +31,7 @@ import { HomeComponent } from './home/home.component';
     [BrowserAnimationsModule],
     [MatSidenavModule, MatButtonModule, MatCheckboxModule, MatMenuModule, MatCardModule, MatToolbarModule, MatIconModule],
     HttpClientModule,
+    MatGridListModule,
     RouterModule.forRoot([
       {
         path: '',

@@ -1,17 +1,14 @@
 <mat-sidenav-container class="example-container">
-  <mat-sidenav #sidenav class="example-sidenav">
+  <mat-sidenav #sidenav class="example-sidenav" >
 
     <mat-card>
       <mat-card-header>
-        <mat-card-title><h3>Content</h3></mat-card-title>
+        <mat-card-title class="level-1">Content</mat-card-title>
       </mat-card-header>
 
     </mat-card>
     <mat-card *ngFor="let subject of subjects; let i = index">
-      <mat-card-header>
-        <mat-card-title><a routerLink="/{{subject.path}}">{{ subject.name }}</a></mat-card-title>
-      </mat-card-header>
-
+        <mat-card-subtitle><a (click)="sidenav.close()" routerLink="/{{subject.path}}">{{ subject.name }}</a></mat-card-subtitle>
     </mat-card>
 
   </mat-sidenav>

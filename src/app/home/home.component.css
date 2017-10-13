@@ -1,0 +1,23 @@
+mat-grid-tile {
+  background: lightblue;
+  background-size: cover;
+}
+
+.tile1{
+  background-image:url("/assets/fenian1.jpg");
+}
+
+.tile2{
+  background-image:url("/assets/fenian2.jpg");
+  background-position-y:-30px;
+}
+
+.tile3{
+  background-image:url("/assets/fenian3.jpg");
+  background-position-y:-30px;
+}
+
+.tile4{
+  background-image:url("/assets/fenian4.jpg");
+  background-position-y:-30px;
+}
