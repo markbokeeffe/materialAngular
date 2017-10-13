@@ -1,7 +1,7 @@
 
 <mat-toolbar color="primary">
 
-    <span>MyCompany</span>
+    <span routerLink="">MyCompany</span>
     <span class="example-spacer"></span>
     <button mat-button [matMenuTriggerFor]="appMenu"><mat-icon>menu</mat-icon> Menu</button>
 
@@ -12,6 +12,9 @@
   <button mat-menu-item> Help </button>
 </mat-menu>
 
+
+<app-sidenav></app-sidenav>
+<!--
 <mat-card *ngFor="let data of (myData ? myData.slice(0,10): []); let i = index">
   <img mat-card-image src="{{ data.url }}">
   <mat-card-header>
@@ -22,4 +25,4 @@
     <button mat-button>LIKE</button>
     <button mat-button>SHARE</button>
   </mat-card-actions>
-</mat-card>
+</mat-card>-->
