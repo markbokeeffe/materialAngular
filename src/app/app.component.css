@@ -1,6 +1,9 @@
 
 body{
   background: lightgray;
+  background-image:url("/assets/cahir.png");
+  background-repeat:no-repeat;
+  background-color:red;
 }
 
 .example-spacer {
@@ -9,4 +12,8 @@ body{
 
 .mat-toolbar.mat-primary{
   background:#1976d2;
+}
+
+.example-container.mat-drawer-container.mat-sidenav-container{
+
 }

@@ -5,6 +5,12 @@ html, body {
     background: #1a1a1a;
     height:100%;
     margin:0px;
-    padding:1px;
+    padding:0px;
     font: 500 20px/32px Roboto,"Helvetica Neue",sans-serif;
+}
+
+body{
+  background-image:url("/assets/cahir.png");
+  background-repeat:no-repeat;
+  background-color:red;
 }
