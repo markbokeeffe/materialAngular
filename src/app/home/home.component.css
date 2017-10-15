@@ -53,3 +53,13 @@ mat-grid-tile {
   background-image:url("/assets/fenian10.jpg");
   background-position-y:-30px;
 }
+
+mat-card{
+  background:#0f3a64;
+  color:#e9e911;
+}
+
+.mat-grid-list{
+    background:#0f3a64;
+    padding:1px 0px;
+}

@@ -1,5 +1,5 @@
 <mat-sidenav-container class="example-container">
-  <mat-sidenav #sidenav class="example-sidenav" >
+  <mat-sidenav #sidenav class="example-sidenav" opened="true" mode="side">
 
     <mat-card>
       <mat-card-header>
@@ -8,15 +8,15 @@
 
     </mat-card>
     <mat-card *ngFor="let subject of subjects; let i = index">
-        <mat-card-subtitle><a (click)="sidenav.close()" routerLink="/{{subject.path}}">{{ subject.name }}</a></mat-card-subtitle>
+        <mat-card-subtitle><a routerLink="/{{subject.path}}">{{ subject.name }}</a></mat-card-subtitle>
     </mat-card>
 
   </mat-sidenav>
 
   <div class="example-sidenav-content">
-    <button type="button" mat-button (click)="sidenav.open()">
-      Open sidenav
-    </button>
+    <!--<button type="button" mat-button (click)="sidenav.open()">
+      <i class="material-icons">view_list</i>
+    </button>-->
    <router-outlet>
    </router-outlet>
   </div>

@@ -12,5 +12,12 @@ html, body {
 body{
   background-image:url("/assets/cahir.png");
   background-repeat:no-repeat;
-  background-color:red;
+}
+
+a{
+  cursor:pointer;
+}
+
+.mat-drawer-container{
+  background-color:transparent;
 }
