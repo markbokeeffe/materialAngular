@@ -1,8 +1,34 @@
-<mat-card>
-  <h2>Introduction</h2>
 
-  <ul>
-    <li>2017 marks the 150th anniversary of attempt at rebellion in Ireland.</li>
-    <li>It was an important milestone</li>
-  </ul>
+<mat-card>
+  <mat-divider>
+    <mat-list-item *ngFor="let point of points; let i = index">
+      <h4 matLine> {{point.title}} </h4>
+     <p matLine>
+        <span> {{point.description}} </span>
+      </p>
+    </mat-list-item>
+  </mat-divider>
 </mat-card>
+
+
+
+
+<!--<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      Introduction
+    </mat-panel-title>
+    <mat-panel-description>
+      Type your name and age
+    </mat-panel-description>
+  </mat-expansion-panel-header>
+
+  <mat-form-field>
+    <input matInput placeholder="First name">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Age">
+  </mat-form-field>
+</mat-expansion-panel>
+-->

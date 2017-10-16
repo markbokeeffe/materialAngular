@@ -9,6 +9,17 @@ html, body {
     font: 500 20px/32px Roboto,"Helvetica Neue",sans-serif;
 }
 
+.example-container[_ngcontent-c5][_ngcontent-c5]{
+  /* Firefox */
+  height: -moz-calc(100% - 64px);
+  /* WebKit */
+  height: -webkit-calc(100% - 64px);
+  /* Opera */
+  height: -o-calc(100% - 64px);
+  /* Standard */
+  height: calc(100% - 64px);
+}
+
 body{
   background-image:url("/assets/cahir.png");
   background-repeat:no-repeat;
@@ -18,6 +29,33 @@ a{
   cursor:pointer;
 }
 
+p{
+  font-size:0.8em;
+}
+
 .mat-drawer-container{
   background-color:transparent;
+}
+
+
+.mat-toolbar .mat-toolbar-row span{
+  color:#e9e911;
+}
+
+
+mat-card{
+  width:90%;
+  float: none;
+  margin: 0 auto;
+}
+
+h4{
+  margin:0;
+  background:#0f3a64;
+  color:#e9e911;
+  padding:0px 1%;
+}
+
+app-fenianism{
+  width:90%;
 }

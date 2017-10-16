@@ -1,3 +1,47 @@
-<p>
-  fenianism works!
-</p>
+<mat-card>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        James Stephens
+      </mat-panel-title>
+      <mat-panel-description>
+        Chief Organiser of the Irish Republic
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <mat-grid-list cols="2" rowHeight="1:1">
+      <mat-grid-tile>
+        <mat-divider>
+          <mat-list-item *ngFor="let point of points1; let i = index">
+             {{point}}
+          </mat-list-item>
+        </mat-divider>
+      </mat-grid-tile>
+      <mat-grid-tile></mat-grid-tile>
+    </mat-grid-list>
+
+
+
+  </mat-expansion-panel>
+</mat-card>
+
+<mat-card>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Fenianism
+      </mat-panel-title>
+      <mat-panel-description>
+        Irish republican secret society
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <mat-form-field>
+      <input matInput placeholder="First name">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Age">
+    </mat-form-field>
+  </mat-expansion-panel>
+</mat-card>

@@ -1,7 +1,10 @@
 <mat-card>
-  <h2>Context</h2>
-
-  <ul>
-    <li>1860s: Children of the Great Famine coming of age.</li>
-  </ul>
+  <mat-divider>
+    <mat-list-item *ngFor="let point of points; let i = index">
+      <h4 matLine> {{point.title}} </h4>
+     <p matLine>
+        <span> {{point.description}} </span>
+      </p>
+    </mat-list-item>
+  </mat-divider>
 </mat-card>
