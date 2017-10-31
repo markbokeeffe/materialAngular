@@ -56,7 +56,10 @@ mat-grid-tile {
 
 mat-card{
   background:#0f3a64;
-  color:#e9e911;
+  color:#fff;
+  padding-left:2%;
+  padding-right:2%;
+  width:96%;
 }
 
 .mat-grid-list{

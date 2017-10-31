@@ -13,7 +13,7 @@
       <mat-grid-tile>
         <mat-divider>
           <mat-list-item *ngFor="let point of points1; let i = index">
-             {{point}}
+             - {{point}}
           </mat-list-item>
         </mat-divider>
       </mat-grid-tile>
@@ -21,15 +21,12 @@
           <img src="/assets/james_stephens.jpg"/>
       </mat-grid-tile>
     </mat-grid-list>
-
-
-
   </mat-expansion-panel>
 </mat-card>
 
 <mat-card>
   <mat-expansion-panel>
-    <mat-expansion-panel-header>
+    <mat-expansion-panel-header (click)="alert('l')">
       <mat-panel-title>
         Fenianism
       </mat-panel-title>
@@ -37,13 +34,10 @@
         Irish republican secret society
       </mat-panel-description>
     </mat-expansion-panel-header>
-
-    <mat-form-field>
-      <input matInput placeholder="First name">
-    </mat-form-field>
-
-    <mat-form-field>
-      <input matInput placeholder="Age">
-    </mat-form-field>
+    <mat-divider>
+      <mat-list-item *ngFor="let point of points2; let i = index">
+         - {{point}}
+      </mat-list-item>
+    </mat-divider>
   </mat-expansion-panel>
 </mat-card>

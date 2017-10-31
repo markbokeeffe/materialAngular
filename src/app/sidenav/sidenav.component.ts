@@ -26,7 +26,26 @@ export class SidenavComponent implements OnInit {
     }
   ]
 
-  constructor() { }
+  constructor() {
+
+  }
+
+  activeClasses = {
+      'mat-card': true,
+      'blue-bar': false
+  }
+
+
+  setActive(event){
+      console.log('event');
+      var target = event.currentTarget;
+      console.log(event.currentTarget)
+      var classes = target.attributes.class;
+
+  }
+
+
+
 
   ngOnInit() {
   }

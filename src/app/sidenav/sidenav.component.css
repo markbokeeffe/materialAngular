@@ -43,3 +43,11 @@ mat-sidenav a{
 .mat-card{
   padding:12px 24px;
 }
+
+.selected{
+  background-color:#0f3a64;
+}
+
+.selected a{
+  color:#fff;
+}

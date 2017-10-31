@@ -39,7 +39,7 @@ p{
 
 
 .mat-toolbar .mat-toolbar-row span{
-  color:#e9e911;
+  color:#fff;
 }
 
 
@@ -52,7 +52,7 @@ mat-card{
 h4{
   margin:0;
   background:#0f3a64;
-  color:#e9e911;
+  color:#fff;
   padding:0px 1%;
 }
 
