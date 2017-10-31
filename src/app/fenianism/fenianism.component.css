@@ -1,0 +1,7 @@
+.mat-expansion-panel-header, .mat-expansion-panel-header.mat-expanded{
+  background-color:#f5f5f9 !important;
+}
+
+.mat-expansion-panel-content{
+  padding-top:10px;
+}

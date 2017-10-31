@@ -10,6 +10,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {MatGridListModule} from '@angular/material';
 import {MatExpansionModule} from '@angular/material';
 import {MatListModule} from '@angular/material';
+import {MatTabsModule} from '@angular/material';
 
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { IntroductionComponent } from './introduction/introduction.component';
@@ -36,9 +37,14 @@ import { HomeComponent } from './home/home.component';
     MatGridListModule,
     MatExpansionModule,
     MatListModule,
+    MatTabsModule,
     RouterModule.forRoot([
       {
         path: '',
+        component: HomeComponent
+      },
+      {
+        path: 'home',
         component: HomeComponent
       },
       {

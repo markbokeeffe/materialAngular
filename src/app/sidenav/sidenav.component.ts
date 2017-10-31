@@ -9,6 +9,10 @@ export class SidenavComponent implements OnInit {
 
   subjects = [
     {
+      name:'Home',
+      path: 'home'
+    },
+    {
       name:'Introduction',
       path: 'introduction'
     },

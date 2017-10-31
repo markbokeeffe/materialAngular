@@ -21,7 +21,8 @@ export class FenianismComponent implements OnInit {
   "Organised in a cellular fashion, where members took a secret oath of loyalty to the Irish Republic.",
   "Planned to overthrow British rule in Ireland by force when conditions were ready.",
   "Anticipated assistance from America in the form of returning Irish war veterans.",
-  "Hoped for international crisis in which Britain would be weakened / distracted."
+  "Hoped for international crisis in which Britain would be weakened / distracted.",
+  "Irish People newspaper was the mouth-organ of the IRB and was run from an office on Parliament Street in Dublin."
 
   ]
   constructor() { }

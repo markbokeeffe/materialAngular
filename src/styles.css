@@ -56,6 +56,14 @@ h4{
   padding:0px 1%;
 }
 
-app-fenianism{
+app-fenianism, app-tipperary{
   width:90%;
+}
+
+app-tipperary{
+  background-color:#fff;
+}
+
+.mat-tab-body{
+  padding:10px 5% !important;
 }
