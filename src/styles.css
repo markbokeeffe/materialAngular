@@ -67,3 +67,7 @@ app-tipperary{
 .mat-tab-body{
   padding:10px 5% !important;
 }
+
+app-root{
+  margin-top:50px;
+}

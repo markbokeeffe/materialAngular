@@ -44,10 +44,21 @@ mat-sidenav a{
   padding:12px 24px;
 }
 
+.mat-card:hover{
+  background-color:#efefef;
+}
+
 .selected{
   background-color:#0f3a64;
 }
 
 .selected a{
+  color:#fff;
+}
+
+.mat-button{
+  position:fixed;
+  right:0px;
+  top:14px;
   color:#fff;
 }

@@ -6,3 +6,11 @@
 .mat-toolbar.mat-primary{
   background:#0f3a64;
 }
+
+.mat-button, .mat-icon-button, .mat-raised-button{
+  display:none;
+}
+
+.site-title{
+  cursor:pointer;
+}

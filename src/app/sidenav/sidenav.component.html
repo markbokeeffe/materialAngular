@@ -1,13 +1,15 @@
 <mat-sidenav-container class="example-container">
-  <mat-sidenav #sidenav class="example-sidenav" opened="true" mode="side">
+  <mat-sidenav #sidenav class="example-sidenav" mode="over">
 
 
     <mat-card [ngClass]='activeClasses' (click)="isClicked=i" [class.selected]="i === isClicked" *ngFor="let subject of subjects; let i = index">
-        <mat-card-subtitle><a routerLink="/{{subject.path}}">{{ subject.name }}</a></mat-card-subtitle>
+        <mat-card-subtitle><a (click)="sidenav.close()" routerLink="/{{subject.path}}">{{ subject.name }}</a></mat-card-subtitle>
     </mat-card>
 
   </mat-sidenav>
-
+  <button type="button" mat-button (click)="sidenav.open()">
+    <i class="material-icons">menu</i>
+  </button>
   <div class="example-sidenav-content">
    <router-outlet>
    </router-outlet>
